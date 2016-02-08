@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+      Thanks for checking out the source!
+      Design, layout and content by Ian McDowell (igmcdowell@gmail.com).
+      Note that all CSS is in a style tag to ensure portability as a single html document.
+      Ordinarily I'd break CSS out into separate stylesheet file(s) for organization and maintainability.
+    -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>Ian McDowell - Resume</title>
+    <style type="text/css">
+      body {
+        font-family: "Lucida Sans Unicode","Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+        line-height: 1.1em;
+        font-size: .8em;
+        margin: 20px auto;
+        width: 800px;
+      }
+
+      h1 {
+        margin: 0;
+        line-height: 1em;
+        font-size: 3.3em;
+      }
+
+      h2 {
+        font-weight: normal;
+        text-transform: uppercase;
+        line-height: normal;
+        padding-left: 10px;
+        background-color: #f5f5f5;
+        margin: 0;
+      }
+
+      h3 {
+        font-size: 1.4em;
+        margin: 5px 0;
+      }
+
+      h4 {
+        margin: 0;
+        font-size: 1.1em;
+        line-height: 1.2em;
+      }
+            
+      a {
+        text-decoration:none;
+        color: #2F399E;
+      }
+      
+      a:hover {
+        text-decoration: underline;
+      }
+      
+      ul {
+        list-style: none;
+        margin: 2px 10px;
+        padding: 0 10px;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+
+      li {
+        margin-top: 5px;
+      }
+
+      li:first-child {
+        margin-top: 0;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      strong {
+        font-weight: bolder;
+      }
+
+      .education, .experience, .value-prop {
+        margin: 20px 0 20px 20px;
+        padding: 0;
+      }
+
+      .summary {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #f5f5f5;
+      }
+
+      .role {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 5px 0 0 0;
+      }
+
+      .contact, .contact-point {
+        display: flex;
+      }
+
+      .contact {
+        justify-content: space-between;
+        flex-direction: column;
+        padding-right: 10px;
+      }
+
+      .company-experience {
+        margin-top: 20px;
+      }
+
+      .company-experience ul {
+        margin-top: 5px;
+      }
+
+      .position {
+        margin-top: 10px;
+      }
+
+      .position:first-child {
+        margin-top: 0;
+      }
+
+      .tenure {
+        font-weight: normal;
+        font-style: italic;
+      }
+
+    </style>  
+    <style type="text/css" media="print">
+      body {
+        background:#fff;
+        font-size:.7em;
+      }
+
+      a {
+        color:#000;
+      }
+
+    </style>
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-22272971-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+  </head>
+  <body>
+    <div class="summary">
+      <div class="personal">
+        <h1>Ian McDowell</h1>
+        <div class="role">Full Stack Software Developer</div>
+      </div>
+      <div class="contact">
+        <div class="contact-point">
+          <a href="mailto:igmcdowell@gmail.com">igmcdowell@gmail.com</a>
+        </div>
+        <div class="contact-point">
+          (415) 596-5935
+        </div>
+        <div class="contact-point">
+          San Francisco, CA
+        </div>
+
+      </div>
+    </div>
+
+    <h2>Summary</h2>
+    <ul class="value-prop">
+      <li><strong>Better Products Faster</strong>: I have a proven ability to write high-quality code quickly across modern technology stacks, including rich single page apps and native mobile apps. I have owned multiple products from conception to delivery.</li>
+      <li><strong>User Experience Expertise</strong>: My professional experience in interaction design helps catch costly usability issues early. I can also design intuitive interfaces by myself as needed.</li>
+      <li><strong>Collaborative Focus</strong>: I work well as a member of a team and enjoy both learning and teaching. I have experience pair programming and delivering tech trainings to teammates.</li>
+    </ul>    
+    <h2>Experience</h2>
+    <div class="experience">
+      <div class="company-experience">
+        <h3>Ab Experientia Education <span class="tenure">December 2013 - June 2015</span></h3>
+        <h4>Co-Founder and CTO</h4>
+        <ul>
+          <li>Pitched product idea with co-founder and was accepted into the ImagineK12 education technology accelerator.</li>
+          <li>Used $100k seed investment to build out two full featured products, detailed below.</li>
+        </ul>
+        <div class="position">
+          <h4>Snapmeet (<a href="http://snapmeet.io">http://snapmeet.io</a>)</h4>
+          <p><em>Real-time collaboration tool with video chat, tasks, and shared-notepad.</em></p>
+          <ul>
+            <li>Handled peak traffic of 400 users/day without issue.</li>
+            <li>Designed, built, and launched full-featured collaboration application in 11 weeks.</li>
+            <li>Wrote 88% of all application code. Backend: Node.js using ES6 with Babel. Frontend: React.js with the Flux pattern.</li>
+            <li>Built a real-time collaborative document editor by integrating the Quill web-based text editor, the ShareJS operational transform library, Socket.io, and MongoDB.</li>
+            <li>Contributed <a href="https://github.com/quilljs/quill/commit/a563273fdbab42f7581696e5e911cbd38139394d">bug fix</a> and doc fixes to open source Quill repo.</li>
+            <li>Built peer-to-peer browser-based video-chat using WebRTC video APIs.</li>
+            <li>Designed and implemented Neo4j graph database schema for persisting objects and relations.</li>
+            <li>Designed and implemented both user experience and visual design.</li>
+          </ul>
+        </div>
+
+        <div class="position">
+          <h4>Picolab (<a href="http://getpicolab.com">http://getpicolab.com</a>)</h4>
+          <p><em>Google Apps based meeting facilitation tool.</em></p>
+          <ul>
+            <li>Adopted by school leaders at Chicago Public Schools, Ravenswood School District, Colorado District 49, and others.</li>
+            <li>Wrote over two thirds of all application code across Angular 1.3.x front end and Rails 4 back end.</li>
+            <li>Wrote front-end and back-end integrations with Google OAuth, Calendar, and Drive APIs.</li>
+            <li>Wrote background jobs using Redis for job storage and Sidekiq for processing.</li>
+            <li>Wrote and optimized ActiveRecord queries. Hand tuned raw SQL where necessary.</li>
+            <li>Designed all front-end UIs, and implemented visual style using HTML with SASS.</li>
+            <li>Conducted user research in the form of explorative interviews, user interviews, and usability testing.</li>
+          </ul>
+        </div>
+      </div>  
+
+      <div class="company-experience">
+        <h3>Tangle Library (Independent iOS App) <span class="tenure">November 2013 - December 2013</span></h3>
+        <h4>Sole Founder</h4>
+        <ul>
+          <li>Generated over $45,000 in sales from 14,000 units sold on the iTunes App Store.  Average rating of 4.5 stars on over 150 reviews.</li>
+          <li>Designed, coded, and supported native iOS app written in Objective-C.</li>
+          <li>Negotiated premium-content deal with artist of popular published books.</li>
+          <li>Contributed accepted commits to <a href="https://github.com/iltercengiz/ICViewPager/commit/ee6ed715bae89066c8ac3d69585a75b33d700b05">ICViewPager</a> and <a href="https://github.com/mruegenberg/IAPManager/commit/e9b568602cb5ba331bb3c9a19ffc8298407b35bb">IAPManager</a> open source Objective-C libraries</li>
+        </ul>
+      </div>  
+
+      <div class="company-experience">
+        <h3>Handle <span class="tenure">March 2012 - November 2013</span></h3>
+        <h4>Full Stack Engineer</h4>
+        <ul>
+          <li>Led engineering team in two month full-app redesign effort that was completed 1 week ahead of schedule.</li>
+          <li>Wrote over 100 features on both frontend (Coffeescript with Knockout.js) and backend (Ruby on Rails) for single-page web-based email client.</li>
+          <li>Fixed 363 ticketed bugs in front-end and back-end code (75% more than team average).</li>
+          <li>Wrote unit and integration tests using RSpec, Jasmine, and PhantomJS.</li>
+          <li>Collaborated via pair programming, code reviews, and lunch and learn knowledge sharing.</li>
+          <li>Taught self Objective-C to address our need for mobile development. Began implementing iOS features within two weeks. Built UI components, implemented custom gestures, and worked with CoreData and AFNetworking to manage client-syncing between back-end REST interface.</li>
+        </ul>
+      </div>
+
+      <div class="company-experience">
+        <h3>Salesforce.com <span class="tenure">May 2010 - March 2012</span></h3>
+        <h4>User Researcher and User Researcher Intern</h4>
+        <ul>
+          <li>
+            Designed, prototyped, and conducted usability tests for documentation portal.   
+            Current Salesforce Developer Documentation site is based on my prototype and findings.
+          </li>
+          <li>Designed, prototyped, and tested redesign for internal bug tracking tool. 
+            80% of recommended features were implemented within one year.</li> 
+          <li>Coded sites and utilities, including database driven HTML/CSS site for distributing personas internally and a userscript for streamlining the creation of test instances of Salesforce.</li>
+          <li>Designed, ran, and presented findings for numerous user research studies on Salesforce administrator tools. Methods included usability testing, contextual inquiry, card sorting, and user interviews.</li>
+        </ul>
+      </div>
+        
+      <div class="company-experience">
+        <h3>Google <span class="tenure">September 2005 - April 2008</span></h3>
+        <div class="position">
+          <h4>Tools Engineer</h4>
+          <ul>
+            <li>Wrote tools, implemented processes, and delivered trainings to remove need for 4-person administrative support team.</li>
+            <li>Created self-serve support site and browser userscripts to streamline or fully automate common tasks performed by support team.</li>
+            <li>Met with product team and advocated for features to reduce need for second-level support.</li>
+            <li>Trained 20+ new administrators.</li>
+          </ul>
+        </div>
+
+        <div class="position">
+          <h4>Online Operations Specialist</h4>
+          <ul>
+            <li>Designed and delivered trainings to hundreds of members of customer support team.</li>  
+            <li>Researched technical support escalations from AdWords CSRs and filed bugs with engineering.</li>
+            <li>Reduced improper issue escalation by 75% by building issue tracking system and using resulting business intelligence to generate new trainings for CSRs.</li>
+          </ul>
+        </div>
+
+        <div class="position">
+          <h4>AdWords Representative</h4>
+          <ul>
+            <li>Provided customer support by phone and email. Nominated by peers in three consecutive quarters for "AdWords MVP" award.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <h2>Education</h2>
+    <ul class="education">  
+      <li>
+        <strong>Masters in Information Management and Systems</strong> (3.92 GPA), <em>UC Berkeley</em>, 2009-2011
+        <br />Winner of <em>2011 Chen Award</em> for Outstanding Master's Project in Analysis of Information Systems
+      </li>
+      <li>
+        <strong>BA in Psychology</strong> (3.86 GPA), <em>UC Berkeley</em>, 2001-2005, <strong>High Honors</strong>, <em>Phi Beta Kappa</em>
+      </li>
+    </ul>
+  </body>
+</html>
